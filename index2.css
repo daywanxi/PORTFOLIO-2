@@ -1,0 +1,153 @@
+html {
+    scroll-behavior: smooth;
+  } 
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}  
+
+body, html {
+    background-image: url("https://github.com/daywanxi/PORTFOLIO-1/blob/main/bg11/bg1.jpg?raw=true");
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    Font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+nav ul li a:hover{
+    color: #ef233c;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 5px;
+}
+
+.col-1 h3{
+    font-size: 20px;
+    color: #e9ecef;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.col-1 h1{
+    font-size: 30px;
+    color: #e9ecef;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+    margin: 5px 0 5px;
+}
+
+.col-1 p{
+    font-size: 15px;
+    color: #e9ecef;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
+}
+
+button{
+    width: 150px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    Font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    cursor: pointer;
+    transition: width 0.5s;
+    border-radius: 12px;
+}
+
+button:hover{
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-1::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient(#ff469f, #ff6062);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+
+.col-2{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 5px;
+}
+
+#insta{
+    border: 0;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+#linkedin{
+    border: 0;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+#gh{
+    border: 0;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
